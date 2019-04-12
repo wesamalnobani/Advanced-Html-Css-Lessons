@@ -1,0 +1,72 @@
+/* #CSS - How To Use CSS Variables ( Custom Properties )
+
+var(Custom Property, FallBack Value)
+------------------------------------
+body {
+    
+}
+
+p {
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+div {
+    font-size: 20px;
+}
+
+div span {
+    color: var(--main-color);
+}
+
+*/
+/* #CSS - Pseudo Elements and What You Can Do With It
+
+p::first-letter {
+    color: #F00;
+    font-weight: bold
+}
+P::first-line {
+    color: #080;
+    font-weight: bold
+}
+p::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #00F
+}
+p::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #00F
+}
+*/
+/*#CSS - Descendant Selectors vs Direct Child Selectors*/
+/* #CSS - Learn The Relation Between Overflow and Float 
+
+div {
+    color: #FFF
+}
+
+.parent {
+    background-color: #F00
+}
+.parent:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.child {
+    background-color: #00F;
+    margin-bottom: 5px;
+    float: left;
+    width: 50%;
+}
+*/
