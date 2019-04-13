@@ -70,3 +70,60 @@ div {
     width: 50%;
 }
 */
+/*CSS - Learn Everything About Css Inheritance
+
+    Property: Inherit
+---------------------
+
+div {
+    color: #F00;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #080;
+    background-color: #EEE;
+    height: 100px;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+h3 {
+    border: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+*/
+/*
+    CSS - Learn Positioning Elements with Css
+    CSS Position : [Static | Relative | Absolute | Fixed ]
+    Direction: [Top | Left | Bottom | Right]
+.content {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #00F;
+    padding: 10px;
+}
+
+.content > div {
+    background-color: #080;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.content > div:last-child {
+    margin-bottom: 0;
+}
+.static {
+    position: ;
+}
+.relative {
+    position: ;
+}
+.absolute {
+    position: ;
+}
+.fixed {
+    position: ;
+}
+*/
